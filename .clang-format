@@ -1,0 +1,9 @@
+BasedOnStyle: WebKit
+IndentWidth: 8
+UseTab: ForIndentation
+BreakBeforeBraces: Allman
+AllowShortIfStatementsOnASingleLine: true
+IndentCaseLabels: true
+ColumnLimit: 0
+PointerAlignment : Right
+KeepEmptyLinesAtTheStartOfBlocks : false
