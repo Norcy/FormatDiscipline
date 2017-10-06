@@ -1,9 +1,20 @@
+# 使用 WebKit 格式
 BasedOnStyle: WebKit
+# 代码缩进（其实是4个，但是调成8才对，不知道什么）
 IndentWidth: 8
+# 仅缩排时使用制表符
 UseTab: ForIndentation
+# 大括号总是另起一行
 BreakBeforeBraces: Allman
+# 语句“if (a) return;” 能被放到单行。
 AllowShortIfStatementsOnASingleLine: true
+# 从Switch缩进 Case 标签 
 IndentCaseLabels: true
+# 单行最大列数，0为无限制
 ColumnLimit: 0
+# 指针*号的对齐方式
 PointerAlignment : Right
+# Block 从空行开始写
 KeepEmptyLinesAtTheStartOfBlocks : false
+# 容器类括号内的前后是否插入空格
+SpacesInContainerLiterals : false
