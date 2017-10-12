@@ -7,7 +7,7 @@ if (len(sys.argv) >= 2):
 if (path == ""):
 	path = os.getcwd()
 
-print("目标目录：%s" %(path))
+print("Target Directory:%s" %(path))
 
 for root, dirs, files in os.walk(path):
 	for name in files:
@@ -16,4 +16,4 @@ for root, dirs, files in os.walk(path):
 			print(localpath)
 			os.system("clang-format -i %s -style=File" %(localpath))
 
-print("格式化结束")
+print("Format Finish")
