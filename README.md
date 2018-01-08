@@ -7,5 +7,5 @@
 如果找不到 `.clang-format`，则使用 cmd+shift+. 来显示隐藏文件
 
 # 使用
-+ 执行 `python Clang_format.py` 对当前目录的代码文件进行格式化（较危险）
++ 执行 `python Clang_format.py` 对当前脚本文件所在目录的的代码文件进行格式化（可以直接把 .clang-format 和 python 文件放到项目里面）
 + 执行 `python Clang_format.py targetDirectory` 对指定目录的代码文件进行格式化（建议）
