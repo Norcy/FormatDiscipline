@@ -5,7 +5,7 @@ path = ""
 if (len(sys.argv) >= 2):
 	path = sys.argv[1]
 if (path == ""):
-	path = sys.argv[0]
+	path = sys.path[0]
 
 print("Target Directory:%s" %(path))
 
