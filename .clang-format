@@ -18,3 +18,5 @@ PointerAlignment : Right
 KeepEmptyLinesAtTheStartOfBlocks : false
 # 容器类括号内的前后是否插入空格
 SpacesInContainerLiterals : false
+# 在尾随的评论前添加的空格数(只适用于//)
+SpacesBeforeTrailingComments: 2
